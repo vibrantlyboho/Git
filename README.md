@@ -291,18 +291,18 @@ use "git checkout -- <file>..." to discard changes in working directory
 
 # FILTERING COLLABORATOR'S COMMITS
 
-### Group By Commit Author
-> $ git shortlog -s -n
-	 git shortlog displays an alphabetical list of names and the commit messages that go along with them. If we just want to see just the number of commits that each developer has made, we can add a couple of flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically (rather than alphabetically by author name).
+## Group By Commit Author
+### $ git shortlog -s -n
+>	 git shortlog displays an alphabetical list of names and the commit messages that go along with them. If we just want to see just the number of commits that each developer has made, we can add a couple of flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically (rather than alphabetically by author name).
 
 
 
-### Filter By Author
-> $ git log --author=Surma
-	 Another way that we can display all of the commits by an author is to use the regular git log command but include the --author flag to filter the commits to the provided author.
+## Filter By Author
+### $ git log --author=Surma
+>	 Another way that we can display all of the commits by an author is to use the regular git log command but include the --author flag to filter the commits to the provided author.
 	
 
 
-### Filter Commits By Search
-> $ git log --grep="border radius issue in Safari"
-	 We can filter commits with the --grep flag. 
+## Filter Commits By Search
+### $ git log --grep="border radius issue in Safari"
+>	 We can filter commits with the --grep flag. 
